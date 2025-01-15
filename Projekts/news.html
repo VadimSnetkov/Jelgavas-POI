@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <title>Ziņas</title>
+    <style>
+          body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            width: 70%;
+            margin: 20px auto;
+            padding: 15px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+        }
+        .post {
+            display: flex;
+            align-items: center;
+            padding: 10px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #ddd;
+            margin-bottom: 15px;
+        }
+        .post img {
+            width: 250px;
+            height: auto;
+            border-radius: 8px;
+            margin-right: 20px;
+        }
+        .post h2 {
+            font-size: 20px;
+            color: #000000;
+            margin-bottom: 8px;
+        }
+        .post p {
+            font-size: 14px;
+            line-height: 1.4;
+        }
+        .date {
+            font-size: 12px;
+            color: #7f8c8d;
+        }
+        .read-more {
+            color: #000000;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .read-more:hover {
+            text-decoration: underline;
+        }
+        .buttons-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 20px;
+        }
+        .button {
+
+            color: rgb(0, 0, 0);
+            text-decoration: none;
+            font-size: 32px;
+
+        }
+        .button:hover {
+            transform: scale(1.05);
+        }
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f1f1f1;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+        }
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+        .dropdown-content a:hover {
+            background-color: #ddd;
+        }
+    </style>
+</head>
+<body>
+    <header>
+            <nav class="navbar">
+                <button class="hamburger" aria-label="Toggle navigation">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <ul class="nav-list navigation-buttons">
+                    <li><a href="index.html">Galvenā</a></li>
+                    <li><a href="categories.html">Kategorijas</a></li>
+                    <li><a href="news.html">Ziņas</a></li>
+                    <li><a href="videos.html">Galerija</a></li>
+                    <li><a href="contacts.html">Kontakti</a></li>
+                    <li><a href="register.html">Reģistrācija</a></li>
+                    <li><a href="login.html">Ienākt</a></li>
+                </ul>
+            </nav>
+    </header>
+    <main>
+    <div class="buttons-container">
+        <div class="dropdown">
+            <a href="https://www.jelgavniekiem.lv/zinas/" class="button"><i class="fa-solid fa-list"></i> Ziņas </i></a>
+            <div class="dropdown-content">
+                <a href="https://www.jelgavniekiem.lv/kriminalzinas/">Kriminālziņas</a>
+                <a href="https://www.jelgavniekiem.lv/izklaide/">Izklaide</a>
+                <a href="https://www.jelgavniekiem.lv/kultura/">Kultūra</a>
+                <a href="https://www.jelgavniekiem.lv/dzivesstils/">Dzīvesstils</a>
+                <a href="https://www.jelgavniekiem.lv/bizness/">Bizness</a>
+                <a href="https://www.jelgavniekiem.lv/sports/">Sports</a>
+                <a href="https://www.jelgavniekiem.lv/veseliba/">Veselība</a>
+            </div>
+        </div>
+    </div>
+        <div class="container">
+            <div class="post">
+                <img src="https://cdn.jelgavniekiem.lv/2025/01/d8d0-6784d73b58162.jpg" alt="Ziemassvētku kauju atceres pasākumi">
+                <div>
+                    <h2>Aizvadīta Ziemassvētku kaujās kritušo latviešu strēlnieku atcere</h2>
+                    <p class="date">13.01.2025</p>
+                    <p>Apritot Ziemassvētku kauju 108. gadskārtai, Jelgavas novada pašvaldība tradicionāli aicināja uz kauju atceres pasākumiem...</p>
+                    <a href="https://www.jelgavniekiem.lv/zinas/novadu-zinas/aizvadita-ziemassvetku-kaujas-krituso-latviesu-strelnieku-atcere/" class="read-more">Lasīt vairāk</a>
+                </div>
+            </div>
+    
+            <div class="post">
+                <img src="https://cdn.jelgavniekiem.lv/2025/01/6e0f-6784d6c035389.png" alt="Vilcienu kavēšanās Jelgavas līnijā">
+                <div>
+                    <h2>Zināms iemesls, kāpēc šorīt kavējās vilcieni Jelgavas līnijā</h2>
+                    <p class="date">13.01.2025</p>
+                    <p>VAS “Latvijas dzelzceļš” novērsis dzelzceļa infrastruktūras tehniskās problēmas, kuru dēļ līnijā Rīga-Jelgava pirmdienas rītā...</p>
+                    <a href="https://www.jelgavniekiem.lv/zinas/jelgavas-zinas/zinams-iemesls-kapec-sorit-kavejas-vilcieni-jelgavas-linija/" class="read-more">Lasīt vairāk</a>
+                </div>
+            </div>
+    
+            <div class="post">
+                <img src="https://cdn.jelgavniekiem.lv/2025/01/db8a-6784c3435cda9.png" alt="Vilcienu kustības kavēšanās Jelgavas līnijā">
+                <div>
+                    <h2>Kavēta vilcienu kustība Jelgavas līnijā</h2>
+                    <p class="date">13.01.2025</p>
+                    <p>Pirmdienas rītā kavēta vilcienu kustība Jelgavas līnijā, liecina AS “Pasažieru vilciens” publiskotā informācija...</p>
+                    <a href="https://www.jelgavniekiem.lv/zinas/jelgavas-zinas/kaveta-vilcienu-kustiba-jelgavas-linija/" class="read-more">Lasīt vairāk</a>
+                </div>
+            </div>
+    
+            <div class="post">
+                <img src="https://cdn.jelgavniekiem.lv/2025/01/b42e-678370a8e46cf.jpg" alt="Tele2 3G slēgšana Jelgavā">
+                <div>
+                    <h2>“Tele2” Jelgavā un vairākās vietās Jelgavas novadā slēgs 3G tehnoloģiju</h2>
+                    <p class="date">12.01.2025</p>
+                    <p>Multipakalpojumu uzņēmums ”Tele2” no 2025. gada janvāra vidus plāno atteikties no 3G tehnoloģijas Jelgavā...</p>
+                    <a href="https://www.jelgavniekiem.lv/zinas/novadu-zinas/tele2-jelgava-un-vairakas-vietas-jelgavas-novada-slegs-3g-tehnologiju/" class="read-more">Lasīt vairāk</a>
+                </div>
+            </div>
+    
+            <div class="post">
+                <img src="https://cdn.jelgavniekiem.lv/2025/01/5838-67821d98eba7a.jpg" alt="POIC kontaktcentra ziņojumi Jelgavā">
+                <div>
+                    <h2>POIC kontaktcentrā pagājušajā gadā reģistrēti 9492 ziņojumi</h2>
+                    <p class="date">11.01.2025</p>
+                    <p>Jelgavas pašvaldības operatīvās informācijas centrā (POIC) 2024. gadā saņemti 9492 ziņojumi...</p>
+                    <a href="https://www.jelgavniekiem.lv/zinas/jelgavas-zinas/poic-kontaktcentra-pagajusaja-gada-registreti-9492-zinojumi/" class="read-more">Lasīt vairāk</a>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-section">
+                <h2>Par mums</h2>
+                <p>Mēs piedāvājam plašu informāciju par vietām un notikumiem Jelgavā. Sekojiet līdzi mūsu atjauninājumiem!</p>
+            </div>
+            <div class="footer-section">
+                <h2>Kontaktinformācija</h2>
+                <p><strong>Adrese:</strong> Lielā iela 2, Jelgava, LV-3001</p>
+                <p><strong>Tālrunis:</strong> +371 20567165</p>
+                <p><strong>E-pasts:</strong> vadimkin55@gmail.com</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2025 Jelgavas POI. Visas Tiesības Aizsargātas.</p>
+        </div>
+    </footer>
+    <script src="./js/scripts.js"></script>
+</body>
+</html>

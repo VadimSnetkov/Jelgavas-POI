@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/styleforreg.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <style>
+        main{
+            margin-top: 40px;
+            margin-bottom: 140px;
+        }
+        .hamburger{
+            margin-top: -17px;
+        }
+        .nav-list{
+            width: 180px;
+            margin-top: -13px;
+        }
+        .navbar{
+            display: flex;
+            justify-content: center;
+        }
+        @media (max-width: 1200px) {
+            .navbar{
+                justify-content: start;
+            }
+        }
+    </style>
+    <title>Ielogošanās</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <button class="hamburger" aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+            <ul class="nav-list navigation-buttons">
+                <li><a href="index.html">Galvenā</a></li>
+                <li><a href="categories.html">Kategorijas</a></li>
+                <li><a href="news.html">Ziņas</a></li>
+                <li><a href="videos.html">Galerija</a></li>
+                <li><a href="contacts.html">Kontakti</a></li>
+                <li><a href="register.html">Reģistrācija</a></li>
+                <li><a href="login.html">Ienākt</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+    <div class="lauks">
+        <h1 class="text-center mb-4"><strong>Ielogošanās</strong></h1>
+        <div class="bloks">
+            <h5>E-pasta adrese</h5>
+            <input class="input" type="text" id="epasts" placeholder="Ievadiet e-pastu">
+            <div class="d-flex justify-content-between">
+                <p id="epastserror" class="error"></p>
+                <i class="bi bi-hand-thumbs-up-fill" style="color: rgb(51, 255, 0); display: none;" id="epastsyes"></i>
+                <i class="bi bi-hand-thumbs-down-fill" style="color: rgb(255, 0, 0); display: none;" id="epastsno"></i>
+            </div>
+        </div>
+        <div class="bloks">
+            <h5>Parole</h5>
+            <input class="input" type="text" id="parole" placeholder="Ievadiet paroli">
+            <div class="d-flex justify-content-between">
+                <p id="paroleerror" class="error"></p>
+                <i class="bi bi-hand-thumbs-up-fill" style="color: rgb(51, 255, 0); display: none;" id="paroleyes"></i>
+                <i class="bi bi-hand-thumbs-down-fill" style="color: rgb(255, 0, 0); display: none;" id="paroleno"></i>
+            </div>
+        </div>
+        <button type="button" onclick="register()" class="btn text-white mt-3 nav-button">Apstiprināt</button>
+    </main>
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-section">
+                <h2>Par mums</h2>
+                <p>Mēs piedāvājam plašu informāciju par vietām un notikumiem Jelgavā. Sekojiet līdzi mūsu atjauninājumiem!</p>
+            </div>
+            <div class="footer-section">
+                <h2>Kontaktinformācija</h2>
+                <p><strong>Adrese:</strong> Lielā iela 2, Jelgava, LV-3001</p>
+                <p><strong>Tālrunis:</strong> +371 20567165</p>
+                <p><strong>E-pasts:</strong> vadimkin55@gmail.com</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2025 Jelgavas POI. Visas Tiesības Aizsargātas.</p>
+        </div>
+    </footer>
+        <script src="./js/scriptforreg.js"></script>
+        <script src="./js/scripts.js"></script>
+    </body>
+    
