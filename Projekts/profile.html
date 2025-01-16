@@ -4,9 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/styles.css">
-    <link rel="stylesheet" href="./css/styleforplaces.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
     <title>Veikali</title>
+    <style>
+        main{
+            display: flex;
+            justify-content: center;
+            margin-top: 220px;
+            margin-bottom: 220px;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -20,14 +27,13 @@
                 <li><a href="news.html">Ziņas</a></li>
                 <li><a href="videos.html">Galerija</a></li>
                 <li><a href="contacts.html">Kontakti</a></li>
-                <li><a href="register.html">Reģistrācija</a></li>
-                <li><a href="login.html">Ienākt</a></li>
+                <li><a href="game.html">Spēle</a></li>
+                <li><a href="profile.html">Profils</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <h1 style="text-align: center;">Pārtikas veikali</h1>
-        <div class="places-container"></div>
+        <h1>Šis ir Vadima profils</h1>
     </main>
     <footer class="footer">
         <div class="footer-container">
@@ -46,42 +52,6 @@
             <p>© 2025 Jelgavas POI. Visas Tiesības Aizsargātas.</p>
         </div>
     </footer>
-    <script>
-        document.addEventListener("DOMContentLoaded", () => {
-        fetch('./data/shops.json')
-          .then(response => response.json())
-          .then(data => {
-            const container = document.querySelector('.places-container');
-            data.forEach(place => {
-              const placeCard = document.createElement('div');
-              placeCard.classList.add('place-card');
-              
-              placeCard.innerHTML = `
-            <img src="${place.image}" alt="${place.name}">
-            <div class="place-info">
-              <h2>${place.name}</h2>
-              <p>${place.description}</p>
-              <p><strong>Adrese:</strong> ${place.address}</p>
-              <p><strong>Atsauksmes:</strong> ⭐ ${place.rating}</p>
-              <div class="schedule-container">
-              <span class="hover-label"><strong>Grafiks</strong> <i class="fa-solid fa-list"></i></span>
-              <div class="schedule">
-                <ul>
-                  ${Object.entries(place.schedule).map(([day, hours]) => `
-                    <li><strong>${day}:</strong> ${hours}</li>
-                  `).join('')}
-                </ul>
-                </div>
-              </div>
-            </div>
-          `;
-              
-              container.appendChild(placeCard);
-            });
-          })
-          .catch(error => console.error('Error loading places:', error));
-      });
-    </script>
     <script src="./js/scripts.js"></script>
 </body>
 </html>

@@ -1,0 +1,98 @@
+[
+    {
+        "name": "Pasta Sala",
+        "description": "Salas parks ar plašām aktivitāšu iespējām un skaistu ainavu gar Driksas upi.",
+        "address": "Pasta sala, Jelgava, LV-3001",
+        "rating": 4.8,
+        "schedule": {
+            "Pirmdiena": "Visu diennakti",
+            "Otrdiena": "Visu diennakti",
+            "Trešdiena": "Visu diennakti",
+            "Ceturtdiena": "Visu diennakti",
+            "Piektdiena": "Visu diennakti",
+            "Sestdiena": "Visu diennakti",
+            "Svētdiena": "Visu diennakti"
+        },
+        "image": "https://lh5.googleusercontent.com/p/AF1QipN1sXzz8GWrWKNiiTAyolV-71LTXwBRB5KPFSjV=w408-h272-k-no"
+    },
+    {
+        "name": "Pilssalas Skatu Tornis",
+        "description": "Skatu tornis ar iespaidīgu skatu uz Lielupi un Jelgavas apkārtni.",
+        "address": "Pilssala, Jelgava, LV-3001",
+        "rating": 4.7,
+        "schedule": {
+            "Pirmdiena": "Visu diennakti",
+            "Otrdiena": "Visu diennakti",
+            "Trešdiena": "Visu diennakti",
+            "Ceturtdiena": "Visu diennakti",
+            "Piektdiena": "Visu diennakti",
+            "Sestdiena": "Visu diennakti",
+            "Svētdiena": "Visu diennakti"
+        },
+        "image": "https://lh5.googleusercontent.com/p/AF1QipNJxvWnrcagSH_tooDAKiUOkfLR1hDXSvwlYv-N=w408-h544-k-no"
+    },
+    {
+        "name": "Laika Rats",
+        "description": "Unikāls vides objekts, kas simbolizē laika ritējumu Jelgavā.",
+        "address": "Driksas iela 1, Jelgava, LV-3001",
+        "rating": 4.6,
+        "schedule": {
+            "Pirmdiena": "Visu diennakti",
+            "Otrdiena": "Visu diennakti",
+            "Trešdiena": "Visu diennakti",
+            "Ceturtdiena": "Visu diennakti",
+            "Piektdiena": "Visu diennakti",
+            "Sestdiena": "Visu diennakti",
+            "Svētdiena": "Visu diennakti"
+        },
+        "image": "https://lh5.googleusercontent.com/p/AF1QipPPBlVUugT_GBq_5XJ7gD9V7As3UUxm8wSvVKXO=w408-h306-k-no"
+    },
+    {
+        "name": "Gājēju Tilts",
+        "description": "Modernais tilts, kas savieno Pasta salu un Jelgavas centru, lielisks skats uz upi.",
+        "address": "Driksas iela, Jelgava, LV-3001",
+        "rating": 4.9,
+        "schedule": {
+            "Pirmdiena": "Visu diennakti",
+            "Otrdiena": "Visu diennakti",
+            "Trešdiena": "Visu diennakti",
+            "Ceturtdiena": "Visu diennakti",
+            "Piektdiena": "Visu diennakti",
+            "Sestdiena": "Visu diennakti",
+            "Svētdiena": "Visu diennakti"
+        },
+        "image": "https://lh5.googleusercontent.com/p/AF1QipO38QZidc765gzpqBHmIERlM4OgVPukLik5Abps=w408-h305-k-no"
+    },
+    {
+        "name": "Jelgavas Pils",
+        "description": "Vēsturiskā Jelgavas pils ar gleznainu ainavu un bagātu vēsturi.",
+        "address": "Lielā iela 2, Jelgava, LV-3001",
+        "rating": 4.8,
+        "schedule": {
+            "Pirmdiena": "9-18",
+            "Otrdiena": "9-18",
+            "Trešdiena": "9-18",
+            "Ceturtdiena": "9-18",
+            "Piektdiena": "9-18",
+            "Sestdiena": "10-16",
+            "Svētdiena": "-"
+        },
+        "image": "https://lh5.googleusercontent.com/p/AF1QipP7mLzgmLwQtSpa9XyIc8gvTd_0aCXlBeSfAGAb=w408-h306-k-no"
+    },
+    {
+        "name": "Jelgavas Autobusu Parks",
+        "description": "Vieta, no kuras sākas ceļojumi uz skaistākajiem Jelgavas un apkārtnes skatiem.",
+        "address": "Dobeles šoseja 10, Jelgava, LV-3001",
+        "rating": 4.3,
+        "schedule": {
+            "Pirmdiena": "6-23",
+            "Otrdiena": "6-23",
+            "Trešdiena": "6-23",
+            "Ceturtdiena": "6-23",
+            "Piektdiena": "6-23",
+            "Sestdiena": "6-23",
+            "Svētdiena": "6-23"
+        },
+        "image": "https://lh5.googleusercontent.com/p/AF1QipPGOb2oM97hVLLhspQNMC0oLi0dq4hdb86Lu9pB=w408-h270-k-no"
+    }
+]

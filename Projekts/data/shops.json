@@ -1,0 +1,98 @@
+[
+    {
+        "name": "Rimi",
+        "description": "Plaša pārtikas un sadzīves preču izvēle par pieņemamām cenām.",
+        "address": "Rīgas iela 11, Jelgava, LV-3001",
+        "rating": 4.5,
+        "schedule": {
+            "Pirmdiena": "8-22",
+            "Otrdiena": "8-22",
+            "Trešdiena": "8-22",
+            "Ceturtdiena": "8-22",
+            "Piektdiena": "8-22",
+            "Sestdiena": "8-22",
+            "Svētdiena": "8-22"
+        },
+        "image": "https://lh5.googleusercontent.com/p/AF1QipPYy0TBDm846bwCtOUV_Cp0m0ox6UtR8ZZMoJXl=w408-h306-k-no"
+    },
+    {
+        "name": "Maxima XX",
+        "description": "Labi pazīstams veikals ar vietējiem un importētiem pārtikas produktiem.",
+        "address": "Pasta iela 13, Jelgava, LV-3001",
+        "rating": 4.3,
+        "schedule": {
+            "Pirmdiena": "8-22",
+            "Otrdiena": "8-22",
+            "Trešdiena": "8-22",
+            "Ceturtdiena": "8-22",
+            "Piektdiena": "8-22",
+            "Sestdiena": "8-22",
+            "Svētdiena": "8-22"
+        },
+        "image": "https://lh5.googleusercontent.com/p/AF1QipN0hT1klEiu6tQN7WNFamdThvPHGd3mCT7jYCx1=w408-h305-k-no"
+    },
+    {
+        "name": "Top!",
+        "description": "Piemājas veikals ar visu nepieciešamo ikdienai.",
+        "address": "Dobeles iela 16, Jelgava, LV-3001",
+        "rating": 4.0,
+        "schedule": {
+            "Pirmdiena": "7-21",
+            "Otrdiena": "7-21",
+            "Trešdiena": "7-21",
+            "Ceturtdiena": "7-21",
+            "Piektdiena": "7-21",
+            "Sestdiena": "7-21",
+            "Svētdiena": "7-21"
+        },
+        "image": "https://lh5.googleusercontent.com/p/AF1QipNQ6m3bO1IuAlpHqE4xBRy-b-rt_DwG9ecyIuFF=w408-h306-k-no"
+    },
+    {
+        "name": "Lidl",
+        "description": "Budžetam draudzīgs veikals ar plašu produktu klāstu.",
+        "address": "Loka Maģistrāle 25, Jelgava, LV-3001",
+        "rating": 4.6,
+        "schedule": {
+            "Pirmdiena": "8-22",
+            "Otrdiena": "8-22",
+            "Trešdiena": "8-22",
+            "Ceturtdiena": "8-22",
+            "Piektdiena": "8-22",
+            "Sestdiena": "8-22",
+            "Svētdiena": "8-22"
+        },
+        "image": "https://lh5.googleusercontent.com/p/AF1QipMTteayYw-v_WT2aqk5xJADV0kZ4yGVYBGTuWpN=w408-h306-k-no"
+    },
+    {
+        "name": "Elvi",
+        "description": "Vietējais veikals ar Latvijas produktiem un draudzīgu servisu.",
+        "address": "Viestura iela 2, Jelgava, LV-3001",
+        "rating": 4.2,
+        "schedule": {
+            "Pirmdiena": "8-21",
+            "Otrdiena": "8-21",
+            "Trešdiena": "8-21",
+            "Ceturtdiena": "8-21",
+            "Piektdiena": "8-21",
+            "Sestdiena": "8-21",
+            "Svētdiena": "8-21"
+        },
+        "image": "https://lh5.googleusercontent.com/p/AF1QipOgkAucf-YxuLmZ7vAtAmMtkUiquHHidDIQ_eii=w426-h240-k-no"
+    },
+    {
+        "name": "Mego",
+        "description": "Komfortabls veikals ar kvalitatīvu pārtikas preču izvēli.",
+        "address": "Jelgavas iela 45, Jelgava, LV-3001",
+        "rating": 4.0,
+        "schedule": {
+            "Pirmdiena": "8-21",
+            "Otrdiena": "8-21",
+            "Trešdiena": "8-21",
+            "Ceturtdiena": "8-21",
+            "Piektdiena": "8-21",
+            "Sestdiena": "8-21",
+            "Svētdiena": "8-21"
+        },
+        "image": "https://lh3.googleusercontent.com/p/AF1QipPyNorhVp4VkJZwJ7QVgrNA3WJJdU4521-Yf8yg=w408-h240-k-no-pi-20-ya301-ro-0-fo100"
+    }
+]

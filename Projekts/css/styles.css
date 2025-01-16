@@ -194,10 +194,6 @@ h1{
     transform: scale(1.2);
 }
 
-.neon-glow-button:hover {
-    text-shadow: 0 0 10px #ffd000;
-    box-shadow: 0 0 30px #dba920, 0 0 40px #dba920, 0 0 50px #dba920;
-}
 
 body {
     font-family: Arial, sans-serif;
@@ -325,6 +321,10 @@ header {
         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     }
 
+    .jelgava-map{
+        visibility: hidden;
+    }
+
     .nav-list.active {
         display: flex;
     }
@@ -341,4 +341,116 @@ header {
         text-align: center;
         flex: 1 1 100%;
     }
+}
+
+html {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.places-container {
+    display: grid;
+    gap: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.place-card {
+    background: #e4e4e4;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    padding: 10px;
+}
+
+.place-card:hover {
+
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+.place-name {
+    height: 30px;
+    padding: 0 10px;
+    overflow: hidden;
+}
+
+.place-name h2 {
+    margin: 0;
+    font-size: 16px;
+    padding: 5px 0;
+    cursor: pointer;
+}
+
+.place-description {
+    padding: 10px;
+}
+
+.schedule-container {
+    margin-top: 10px;
+}
+
+.place-description {
+    display: none;
+}
+
+.place-card:hover .place-description {
+    display: block;
+    margin-top: 10px;
+}
+
+.place-description p {
+    margin: 10px 0;
+    color: #353535;
+    line-height: 1.5;
+}
+
+.place-description img {
+    width: 400px;
+    height: 180px;
+    object-fit: cover;
+    margin-top: 10px;
+}
+
+#places-list {
+    height: 720px;
+    display: flex;
+    flex-direction: column;
+    width: 34%;
+    overflow-y: auto;
+
+}
+
+.place-card {
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.place-card:hover {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+#place-details {
+    width: 25%;
+    position: fixed;
+    left: 20%;
+    top: 85px;
+    background-color: #f9f9f9;
+    border-left: 2px solid #ddd;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.place-details img{
+    width: 80%;
+    height: 30%;
+}
+
+.schedule ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.schedule ul li {
+    margin: 5px 0;
 }

@@ -1,0 +1,98 @@
+[
+    {
+      "name": "NDD Serviss",
+      "description": "Ātrs remonts, činī datorus un printerus",
+      "address": "Akadēmijas iela 3, Jelgava, LV-3001",
+      "rating": 4.7,
+      "schedule": {
+        "Pirmdiena": "9-18",
+        "Otrdiena": "8-18",
+        "Trešdiena": "9-18",
+        "Ceturtdiena": "9-18",
+        "Piektdiena": "9-18",
+        "Sestdiena": "-",
+        "Svētdiena": "-"
+      },
+      "image": "https://lh5.googleusercontent.com/p/AF1QipM1YATcWhJ178EAQQltMt1AmhaIsfDjBgE-_y83=w426-h240-k-no"
+    },
+    {
+      "name": "RD Electronics",
+      "description": "Var nopirkt visu, kam vajadzīga elektrība...",
+      "address": "Driksas iela 4, Jelgava, LV-3001",
+      "rating": 4.1,
+      "schedule": {
+        "Pirmdiena": "10-20",
+        "Otrdiena": "10-20",
+        "Trešdiena": "10-20",
+        "Ceturtdiena": "10-20",
+        "Piektdiena": "10-20",
+        "Sestdiena": "10-20",
+        "Svētdiena": "10-20"
+      },
+      "image": "https://lh5.googleusercontent.com/p/AF1QipMigOuFaEFPmjE-trHB95LdRybhd3Dm6O0DauE6=w408-h299-k-no"
+    },
+    {
+        "name": "Bite",
+        "description": "Tipisks Bite salons, uz vietas labāk neņemt neko, bet ja steidzami vajag jaunu trubu, tad ņem",
+        "address": "Driksas iela 4, Jelgava, LV-3001",
+        "rating": 3.8,
+        "schedule": {
+          "Pirmdiena": "10-20",
+          "Otrdiena": "10-20",
+          "Trešdiena": "10-20",
+          "Ceturtdiena": "10-20",
+          "Piektdiena": "10-20",
+          "Sestdiena": "10-20",
+          "Svētdiena": "10-20"
+        },
+        "image": "https://lh5.googleusercontent.com/p/AF1QipN9QtSsQbjMRxllQZ5qQsK7w-aGkQEjgXm52dkM=w408-h306-k-no"
+      },
+      {
+        "name": "Vita Lombards",
+        "description": "Lombards... ja maz naudas vai ko atradi, šī ir laba vieta, bet kontingents iespaidīgs",
+        "address": "Pasta iela 24B, Jelgava, LV-3001",
+        "rating": 3.8,
+        "schedule": {
+          "Pirmdiena": "9-20",
+          "Otrdiena": "9-20",
+          "Trešdiena": "9-20",
+          "Ceturtdiena": "9-20",
+          "Piektdiena": "9-20",
+          "Sestdiena": "9-20",
+          "Svētdiena": "9-20"
+        },
+        "image": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=X_QxoWJHGEnTKADyfNm0TA&cb_client=search.gws-prod.gps&w=408&h=240&yaw=317.60767&pitch=0&thumbfov=100"
+      },
+      {
+        "name": "Sellit",
+        "description": "Baltic Data klons, bet tālāk no centra un ir papildus opcijas ar datortīkliem, grūti atrast ieeju",
+        "address": "Pulkveža Oskara Kalpaka iela 16, Jelgava, LV-3001",
+        "rating": 4.6,
+        "schedule": {
+          "Pirmdiena": "8-18",
+          "Otrdiena": "8-18",
+          "Trešdiena": "8-18",
+          "Ceturtdiena": "8-18",
+          "Piektdiena": "8-18",
+          "Sestdiena": "-",
+          "Svētdiena": "-"
+        },
+        "image": "https://lh5.googleusercontent.com/p/AF1QipOyRGQ53uIDTwLl8NLi_ZCQrG4S4Laz-3KXdsOJ=w408-h247-k-no"
+      },
+      {
+        "name": "Evelatus",
+        "description": "Takā trubu un maciņu veikals, var paķert ko smuku savam telefonam",
+        "address": "T/C Pilsētas Pasāža, Driksas iela 4, Jelgava, LV-3001",
+        "rating": 3.7,
+        "schedule": {
+          "Pirmdiena": "10-20",
+          "Otrdiena": "10-20",
+          "Trešdiena": "10-20",
+          "Ceturtdiena": "10-20",
+          "Piektdiena": "10-20",
+          "Sestdiena": "10-20",
+          "Svētdiena": "10-20"
+        },
+        "image":"https://lh5.googleusercontent.com/p/AF1QipMWcQRkj5FsbZOEkov0ChzygKJaseqpvG1uWOvf=w426-h240-k-no"
+      }
+  ]

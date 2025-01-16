@@ -1,4 +1,4 @@
-function register(){
+function registered(){
 //vards
     if (!document.getElementById("vards").value) {
         document.getElementById("vardserror").innerHTML = "Vārds nav ievadīts!"

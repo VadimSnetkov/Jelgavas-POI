@@ -1,0 +1,98 @@
+[
+    {
+        "name": "Tonuss",
+        "description": "Populārākais naktsklubs Jelgavā ar vairākiem deju laukumiem un bāriem.",
+        "address": "Uzvaras iela 12, Jelgava, LV-3001",
+        "rating": 4.3,
+        "schedule": {
+            "Pirmdiena": "-",
+            "Otrdiena": "-",
+            "Trešdiena": "22-4",
+            "Ceturtdiena": "22-4",
+            "Piektdiena": "22-6",
+            "Sestdiena": "22-6",
+            "Svētdiena": "-"
+        },
+        "image": "https://lh5.googleusercontent.com/p/AF1QipPxAYbThv8eDMaXI6l5aMwsNLA9mx-UYy9g-tFd=w408-h906-k-no"
+    },
+    {
+        "name": "Blow",
+        "description": "Moderns kokteiļbārs ar plašu dzērienu izvēli un stilīgu atmosfēru.",
+        "address": "Driksas iela 9, Jelgava, LV-3001",
+        "rating": 4.6,
+        "schedule": {
+            "Pirmdiena": "16-1",
+            "Otrdiena": "16-1",
+            "Trešdiena": "16-1",
+            "Ceturtdiena": "16-2",
+            "Piektdiena": "16-3",
+            "Sestdiena": "16-3",
+            "Svētdiena": "16-1"
+        },
+        "image": "https://lh5.googleusercontent.com/p/AF1QipOAst2aK51YKvmucNwTiEoAI68G0bRTvQoXNc0E=w408-h544-k-no"
+    },
+    {
+        "name": "Ezītis Miglā",
+        "description": "Populārs bārs ar dārzu, pieejams ēdiens un ikdienas pasākumi.",
+        "address": "Krišjāņa Barona iela 3, Jelgava, LV-3001",
+        "rating": 4.5,
+        "schedule": {
+            "Pirmdiena": "12-24",
+            "Otrdiena": "12-24",
+            "Trešdiena": "12-1",
+            "Ceturtdiena": "12-1",
+            "Piektdiena": "12-3",
+            "Sestdiena": "12-3",
+            "Svētdiena": "12-24"
+        },
+        "image": "https://lh5.googleusercontent.com/p/AF1QipOmKv1fwV9Fg7RoCCLIFQHSCSkw5iPLTpepS2IE=w408-h272-k-no"
+    },
+    {
+        "name": "Melno Cepurīšu Balerija",
+        "description": "Radoša vieta ar alternatīvo mūziku, koncertiem un mākslas pasākumiem.",
+        "address": "Lielā iela 19a, Jelgava, LV-3001",
+        "rating": 4.8,
+        "schedule": {
+            "Pirmdiena": "16-23",
+            "Otrdiena": "16-23",
+            "Trešdiena": "16-24",
+            "Ceturtdiena": "16-24",
+            "Piektdiena": "16-2",
+            "Sestdiena": "16-2",
+            "Svētdiena": "16-23"
+        },
+        "image": "https://lh5.googleusercontent.com/p/AF1QipM00v9X7b6HfUNensTe88-XmOHYb9nOqJsGMhq9=w408-h306-k-no"
+    },
+    {
+        "name": "Olympic Sports Bar",
+        "description": "Vieta sporta faniem, lieli ekrāni un garšīgi dzērieni.",
+        "address": "Rīgas iela 11a, Jelgava, LV-3001",
+        "rating": 4.2,
+        "schedule": {
+            "Pirmdiena": "14-24",
+            "Otrdiena": "14-24",
+            "Trešdiena": "14-1",
+            "Ceturtdiena": "14-1",
+            "Piektdiena": "14-2",
+            "Sestdiena": "12-2",
+            "Svētdiena": "12-24"
+        },
+        "image": "https://lh5.googleusercontent.com/p/AF1QipP7JQfD2UUlmfik5bw5tVAkd_Kk58EptHpHAN9P=w408-h290-k-no"
+    },
+    {
+        "name": "Joker",
+        "description": "Jauna vieta ar dīdžejiem un unikāliem kokteiļiem.",
+        "address": "Pasta iela 26, Jelgava, LV-3001",
+        "rating": 4.4,
+        "schedule": {
+            "Pirmdiena": "-",
+            "Otrdiena": "18-1",
+            "Trešdiena": "18-1",
+            "Ceturtdiena": "18-2",
+            "Piektdiena": "18-3",
+            "Sestdiena": "18-3",
+            "Svētdiena": "18-1"
+        },
+        "image": "https://lh5.googleusercontent.com/p/AF1QipMsNWc6d7QtSxJyKU1IimJToWIgXYJyA76Q1_iL=w426-h240-k-no"
+    }
+]

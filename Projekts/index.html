@@ -25,7 +25,10 @@
             </nav>
     </header>
     <main class="main-map">
-        <section class="places-list">
+        <section id="places-list" class="places-list">
+
+        </section>
+        <section class="place-details" id="place-details">
 
         </section>
         <section>
@@ -33,7 +36,16 @@
             </div>
         </section>
         <section class="filters">
-
+            <label for="category-select">Filtrēt pēc kategorijas:</label>
+    <select id="category-select">
+        <option value="all">Visas</option>
+        <option value="electronics">Elektronika</option>
+        <option value="food">Ēdināšana</option>
+        <option value="shops">Veikali</option>
+        <option value="parks">Parki</option>
+        <option value="clubsbars">Klubi un bāri</option>
+        <option value="views">Skati</option>
+    </select>
         </section>
     </main>
     <footer class="footer">

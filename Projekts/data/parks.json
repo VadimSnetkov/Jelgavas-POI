@@ -1,0 +1,44 @@
+[
+    {
+        "name": "Uzvaras Parks",
+        "description": "Plašs parks ar pastaigu takām un skaistiem dabas skatiem. Ideāla vieta piknikam vai sporta aktivitātēm.",
+        "address": "Uzvaras iela, Jelgava, LV-3001",
+        "rating": 4.8,
+        "image": "https://lh5.googleusercontent.com/p/AF1QipNujUq_yvWodqlWtHRxR1RskpBNbNR7zZA2Pu8I=w426-h240-k-no"
+    },
+    {
+        "name": "Stacijas Parks",
+        "description": "Vēsturisks parks ar skaistiem ziedu dārziem un bērnu rotaļu laukumu.",
+        "address": "Stacijas iela, Jelgava, LV-3001",
+        "rating": 4.5,
+        "image": "https://lh5.googleusercontent.com/p/AF1QipMpNdV_WLxrHbm6F0FVLcXMmlKduIQJCnUwEo1F=w408-h306-k-no"
+    },
+    {
+        "name": "Pils Parks",
+        "description": "Parkā ir dažādi kultūras pasākumi un plašas zaļās zonas atpūtai. Blakus atrodas Jelgavas pils.",
+        "address": "Lielā iela 1, Jelgava, LV-3001",
+        "rating": 4.9,
+        "image": "https://lh5.googleusercontent.com/p/AF1QipMF0Fqhx2AzI0aU9LCYC-6TIadq54Xx0aDaDZxn=w408-h306-k-no"
+    },
+    {
+        "name": "Driksas Promenāde",
+        "description": "Pastaigu zona gar Driksas upi ar soliņiem un skaistiem skatiem. Ideāli piemērota vakara pastaigām.",
+        "address": "Driksas iela, Jelgava, LV-3001",
+        "rating": 4.6,
+        "image": "https://lh5.googleusercontent.com/p/AF1QipMGACHTszEBYTajXkDxZQJGasWTA7_vtUBFwbPj=w408-h816-k-no"
+    },
+    {
+        "name": "Raiņa Parks",
+        "description": "Klusāka vieta ar daudz koku un dabas skaistumu. Piemērota atpūtai no pilsētas trokšņa.",
+        "address": "Raiņa iela, Jelgava, LV-3001",
+        "rating": 4.4,
+        "image": "https://lh5.googleusercontent.com/p/AF1QipN4XrnJblb2G6sAZ5SZ5flvUCYGapiBOr8KYkiR=w437-h240-k-no"
+    },
+    {
+        "name": "Ozolskvērs",
+        "description": "Mazs, bet sakopts parks ar skatu laukumu un vietu bērnu rotaļām.",
+        "address": "Dobeles iela, Jelgava, LV-3001",
+        "rating": 4.2,
+        "image": "https://lh5.googleusercontent.com/p/AF1QipMJdJmmdUCIffaTLowOHv638wVO7nQxpEIi3VeE=w408-h305-k-no"
+    }
+]
